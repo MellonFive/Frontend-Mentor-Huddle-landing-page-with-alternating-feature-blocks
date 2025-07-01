@@ -553,7 +553,8 @@ section.advertising {
 }
 
 section.advertising > .box > .title {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  
 
   margin-bottom: 2rem;
 }
@@ -563,13 +564,27 @@ section.advertising > .box > .btn {
 
   display: inline-block;
   
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   padding: 2rem 8rem;
   
   border-radius: 3rem;
 
   font-size: 1.8rem;
+  font-weight: 700;
+
   color: #FFF;
+
+  box-shadow: 3px 3px 10px #000;
+
+  transition: 0.1s;
+}
+
+section.advertising > .box > .btn:focus {
+  border: 1px solid var(--Pink);
+
+  background-color: #fff;
+
+  color: #000;
 }
 
 .footer {
