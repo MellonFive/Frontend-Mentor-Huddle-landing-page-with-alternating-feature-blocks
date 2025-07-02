@@ -555,7 +555,6 @@ section.advertising {
 section.advertising > .box > .title {
   font-size: 3.5rem;
   
-
   margin-bottom: 2rem;
 }
 
@@ -569,14 +568,14 @@ section.advertising > .box > .btn {
   
   border-radius: 3rem;
 
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 600;
 
   color: #FFF;
 
   box-shadow: 3px 3px 10px #000;
 
-  transition: 0.1s;
+  transition: .3s;
 }
 
 section.advertising > .box > .btn:focus {
