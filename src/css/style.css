@@ -110,6 +110,8 @@ main > .container {
   color: #000;
 }
 
+/* FAZER A RESPONSIVIDADE COM AS AULAS DE CSS INTERMEDIÁRIO MEDIA QUERIES*/
+
 @media (max-width: 425px) {
   .container > header {
     display: flex;
