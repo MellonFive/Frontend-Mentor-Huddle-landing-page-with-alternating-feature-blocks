@@ -607,6 +607,23 @@ section.advertising > .box > .btn:focus {
   color: #000;
 }
 
+@media (min-width: 1025px) and (max-width: 1400px) {
+  section.advertising {
+    width: 60%;
+    padding: 5rem 10rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 3rem;
+  }
+
+  section.advertising > .box > .btn {
+    width: 60%;
+
+    font-size: 1.5rem;
+  }
+}
+
 .footer {
   grid-area: footer;
 }
