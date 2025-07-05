@@ -652,11 +652,51 @@ footer.footer {
     margin-top: 4rem;
 
     background-color: red;
+
+    color: #FFF;
   }
 
   footer.footer > .container {
+    display: grid;
+    gap: 5rem;
+
+    grid-template-columns: 40% 1fr 1fr;
+
+    padding: 6rem 8rem;
+  }
+
+  footer.footer > .container > .left {
+    width: 60%;
+  } 
+
+  footer.footer > .container > .left > .div-image > img {
+    width: 70%;
+  }
+
+  footer.footer > .container > .left > .lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    margin-top: 2rem;
+  }
+
+  footer.footer > .container > .left > .lists > .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 2rem;
+  }
+
+  footer.footer > .container > .group-left-right-middle {
+    background-color: yellow;
+
     display: flex;
 
-    padding: 5rem 7rem;
+    PAREI AQUI
   }
 }
