@@ -599,6 +599,14 @@ section.advertising > .box > .btn {
   transition: 0.3s;
 }
 
+section.advertising > .box > .btn:focus {
+  border: 1px solid var(--Pink);
+
+  background-color: #fff;
+
+  color: #000;
+}
+
 @media (max-width: 425px) {
   section.advertising {
     width: 80%;
@@ -616,14 +624,6 @@ section.advertising > .box > .btn {
 
     font-size: 1.5rem;
   }
-}
-
-section.advertising > .box > .btn:focus {
-  border: 1px solid var(--Pink);
-
-  background-color: #fff;
-
-  color: #000;
 }
 
 @media (min-width: 1025px) and (max-width: 1400px) {
