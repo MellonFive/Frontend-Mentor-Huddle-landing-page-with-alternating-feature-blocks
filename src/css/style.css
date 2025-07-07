@@ -611,16 +611,36 @@ section.advertising > .box > .btn:focus {
   section.advertising {
     width: 80%;
     padding: 3rem 2rem;
+    FAZER O ADVERTISING PARA DEPOIS FAZER O FOOTER
   }
 
   section.advertising > .box > .title {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 
   section.advertising > .box > .btn {
     width: 80%;
 
     margin-top: 1.5rem;
+    padding: 1rem 0;
+
+    font-size: 1.1rem;
+
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  section.advertising {
+    width: 70%;
+    padding: 4rem 3rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 2.5rem;
+  }
+
+  section.advertising > .box > .btn {
+    width: 70%;
 
     font-size: 1.5rem;
   }
