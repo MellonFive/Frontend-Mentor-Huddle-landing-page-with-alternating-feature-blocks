@@ -666,6 +666,47 @@ section.advertising > .box > .btn:focus {
   }
 }
 
+@media (max-width: 425px) {
+  footer.footer {
+    padding: 3rem 2rem;
+  }
+
+  footer.footer > .container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+  }
+
+  footer.footer > .container > .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer.footer > .container > .left > .div-image > img {
+    width: 80%;
+  }
+
+  footer.footer > .container > .left > .lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  footer.footer > .container > .left > .lists > .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 1.5rem;
+  }
+}
+
 footer.footer {
   grid-area: footer;
 }
