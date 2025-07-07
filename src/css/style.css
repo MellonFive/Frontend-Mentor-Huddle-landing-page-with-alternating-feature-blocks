@@ -429,6 +429,10 @@ section.infos > .info.users > .image-users {
 
     padding: 2rem;
   }
+
+    section.infos > .info.users.-last {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
