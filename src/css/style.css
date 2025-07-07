@@ -625,10 +625,10 @@ section.advertising > .box > .btn:focus {
   section.advertising > .box > .btn {
     width: 80%;
 
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     padding: 1rem 0;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -664,6 +664,10 @@ section.advertising > .box > .btn:focus {
 
     font-size: 1.5rem;
   }
+}
+
+footer.footer {
+  grid-area: footer;
 }
 
 @media (max-width: 425px) {
@@ -705,10 +709,6 @@ section.advertising > .box > .btn:focus {
 
     margin-bottom: 1.5rem;
   }
-}
-
-footer.footer {
-  grid-area: footer;
 }
 
 @media (min-width: 1025px) and (max-width: 1400px) {
