@@ -613,21 +613,22 @@ section.advertising > .box > .btn:focus {
 
 @media (max-width: 425px) {
   section.advertising {
-    width: 80%;
-    padding: 3rem 2rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
   }
 
   section.advertising > .box > .title {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   section.advertising > .box > .btn {
     width: 80%;
 
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     padding: 1rem 0;
 
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 }
 
