@@ -649,6 +649,28 @@ section.advertising > .box > .btn:focus {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  section.advertising {
+    width: 80%;
+
+    margin-top: 5rem;
+    padding: 4rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  section.advertising > .box > .btn {
+    width: 80%;
+
+    text-align: center;
+
+    font-size: 1.6rem;
+  }
+}
+
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.advertising {
     width: 60%;
