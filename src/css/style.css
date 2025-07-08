@@ -614,6 +614,7 @@ section.advertising > .box > .btn:focus {
 @media (max-width: 425px) {
   section.advertising {
     width: 85%;
+    
     margin: 0 auto;
     padding: 4rem 2rem;
   }
