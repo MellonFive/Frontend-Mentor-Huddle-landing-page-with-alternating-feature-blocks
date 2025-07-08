@@ -732,7 +732,7 @@ footer.footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
 
-    padding: 6rem;
+    padding: 6rem 6rem 2rem;
   }
 
   footer.footer > .container > .left {
@@ -740,7 +740,7 @@ footer.footer {
   } 
 
   footer.footer > .container > .left > .div-image > img {
-    width: 70%;
+    width: 80%;
   }
 
   footer.footer > .container > .left > .lists {
