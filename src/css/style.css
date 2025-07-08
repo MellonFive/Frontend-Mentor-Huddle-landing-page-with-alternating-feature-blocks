@@ -251,7 +251,7 @@ main > .container {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */
   .container > header > .header-container > .container {
     display: flex;
@@ -497,7 +497,7 @@ section.infos > .info.users > .image-users {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   section.infos {
     padding: 0 10rem;
   }
@@ -658,7 +658,7 @@ section.advertising > .box > .btn:focus {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   section.advertising {
     width: 60%;
 
