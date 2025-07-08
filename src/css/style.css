@@ -722,7 +722,7 @@ footer.footer {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   footer.footer {
     margin-top: 4rem;
 
