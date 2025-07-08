@@ -614,7 +614,7 @@ section.advertising > .box > .btn:focus {
 @media (max-width: 425px) {
   section.advertising {
     width: 85%;
-    
+
     margin: 0 auto;
     padding: 4rem 2rem;
   }
@@ -636,6 +636,7 @@ section.advertising > .box > .btn:focus {
 @media (min-width: 426px) and (max-width: 768px) {
   section.advertising {
     width: 70%;
+
     padding: 4rem 3rem;
   }
 
@@ -660,6 +661,7 @@ section.advertising > .box > .btn:focus {
 
   section.advertising > .box > .title {
     font-size: 3.5rem;
+
     text-align: center;
   }
 
@@ -747,9 +749,8 @@ footer.footer {
 
   footer.footer > .container {
     display: grid;
-    gap: 5rem;
-
     grid-template-columns: 40% 1fr 1fr;
+    gap: 5rem;
 
     padding: 6rem 8rem;
   }
