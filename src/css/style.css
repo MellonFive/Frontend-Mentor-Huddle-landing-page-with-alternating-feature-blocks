@@ -732,7 +732,7 @@ footer.footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
 
-    padding: 6rem 8rem;
+    padding: 6rem;
   }
 
   footer.footer > .container > .left {
@@ -757,7 +757,7 @@ footer.footer {
     align-items: flex-start;
     gap: 2rem;
 
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 
     margin-bottom: 2rem;
   }
