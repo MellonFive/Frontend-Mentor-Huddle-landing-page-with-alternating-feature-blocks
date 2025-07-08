@@ -674,17 +674,17 @@ section.advertising > .box > .btn:focus {
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.advertising {
     width: 60%;
-    padding: 5rem 10rem;
+    padding: 5rem 0;
   }
 
   section.advertising > .box > .title {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   section.advertising > .box > .btn {
     width: 60%;
 
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
