@@ -674,7 +674,7 @@ section.advertising > .box > .btn:focus {
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.advertising {
     width: 60%;
-    
+
     padding: 5rem 0;
   }
 
@@ -707,6 +707,7 @@ footer.footer {
 
   footer.footer > .container > .left {
     width: 100%;
+    
     text-align: center;
   }
 
