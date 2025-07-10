@@ -330,7 +330,7 @@ section.infos > .info.users > .left > .title {
 }
 
 section.infos > .info.flowing > .right > .title {
-  margin-right: 7.5rem;
+  width: 60%;
 }
 
 section.infos > .info.grow > .left > .description,
@@ -381,8 +381,9 @@ section.infos > .info.users > .image-users {
 
   section.infos > .info.flowing > .right > .title {
     margin-right: 0;
-
     padding: 0 0.8rem;
+
+    width: 100%;
   }
 
   section.infos > .info.grow > .left > .description,
