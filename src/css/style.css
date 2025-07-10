@@ -526,7 +526,7 @@ section.infos > .info.users > .image-users {
   section.infos > .info.users > .left > .description {
     width: 100%;
 
-    /* font-size: 1.7rem; */
+    font-size: 1.6rem;
 
     line-height: 2.5rem;
   }
