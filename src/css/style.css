@@ -110,7 +110,7 @@ main > .container {
   color: #000;
 }
 
-/* FAZER A RESPONSIVIDADE COM AS AULAS DE CSS INTERMEDIÁRIO MEDIA QUERIES*/
+/* FAZER A RESPONSIVIDADE COM AS AULAS DE CSS INTERMEDIÁRIO MEDIA QUERIES PEGAR UM EXEMPLO DESSE VÍDEO AQUI: https://www.youtube.com/watch?v=lW4y96F-4UQ&t=2177s */
 
 @media (max-width: 425px) {
   .container > header {
