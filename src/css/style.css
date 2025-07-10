@@ -727,7 +727,7 @@ footer.footer {
   footer.footer {
     margin-top: 4rem;
 
-    background-color: red;
+    background-color: var(--Very-Dark-Cyan);
 
     color: #FFF;
   }
@@ -762,14 +762,22 @@ footer.footer {
     align-items: flex-start;
     gap: 2rem;
 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
     margin-bottom: 2rem;
   }
 
   footer.footer > .container > .group-left-right-middle {
-    background-color: yellow;
-
     display: flex;
+    justify-content: space-around;
+
+    margin-top: 4rem;
+  }
+
+  footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
+  footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
+    margin-top: 2rem;
+
+    font-size: 1.5rem;
   }
 }
