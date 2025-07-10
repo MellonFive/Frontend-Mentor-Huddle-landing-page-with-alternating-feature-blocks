@@ -552,10 +552,10 @@ section.advertising {
 
   text-align: center;
 
-  width: 50%;
+  width: 60%;
 
-  margin: 0 auto;
-  padding: 5rem 7rem;
+  margin: 8rem auto 0;
+  padding: 6rem 7rem;
 
   border-radius: 1rem;
 
@@ -563,7 +563,7 @@ section.advertising {
 }
 
 section.advertising > .box > .title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 
@@ -600,7 +600,7 @@ section.advertising > .box > .btn:focus {
   section.advertising {
     width: 90%;
 
-    margin: 0 auto;
+    margin: 10rem auto 0;
     padding: 3.5rem 2rem;
   }
 
