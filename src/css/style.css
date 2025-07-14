@@ -684,6 +684,34 @@ section.advertising > .box > .btn:focus {
 
 footer.footer {
   grid-area: footer;
+
+  margin-top: 3rem;
+
+  background-color: var(--Very-Dark-Cyan);
+  
+  color: #FFF;
+}
+
+footer.footer > .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+
+  padding: 4rem 10rem;
+}
+
+footer.footer > .container > .left {
+  width: 70%;  
+}
+
+footer.footer > .container > .left .div-image > img {
+  width: 80%;
+}
+
+footer.footer > .container > .left > .lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 @media (max-width: 425px) {
