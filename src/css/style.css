@@ -711,7 +711,17 @@ footer.footer > .container > .left .div-image > img {
 footer.footer > .container > .left > .lists {
   display: flex;
   flex-direction: column;
+}
+
+footer.footer > .container > .left > .lists .list {
+  display: flex;
+  align-items: flex-start;
   justify-content: flex-start;
+  gap: 2rem;
+
+  background-color: red;
+
+  margin-top: 2rem;
 }
 
 @media (max-width: 425px) {
