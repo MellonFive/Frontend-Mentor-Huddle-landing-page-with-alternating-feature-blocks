@@ -554,8 +554,8 @@ section.advertising {
 
   width: 70%;
 
-  margin: 8rem auto 0;
-  padding: 8rem 7rem;
+  margin: 10rem auto 0;
+  padding: 6rem 7rem;
 
   border-radius: 1rem;
 
@@ -563,7 +563,7 @@ section.advertising {
 }
 
 section.advertising > .box > .title {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 700;
 }
 
@@ -580,6 +580,7 @@ section.advertising > .box > .btn {
   border-radius: 3rem;
 
   font-weight: 600;
+  font-size: 1.7rem;
 
   color: #fff;
 
