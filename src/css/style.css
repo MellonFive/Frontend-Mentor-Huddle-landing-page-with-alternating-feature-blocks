@@ -715,13 +715,18 @@ footer.footer > .container > .left > .lists {
 
 footer.footer > .container > .left > .lists .list {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
   gap: 2rem;
 
   background-color: red;
 
   margin-top: 2rem;
+}
+
+footer.footer > .container > .left > .lists .list.-first {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 @media (max-width: 425px) {
