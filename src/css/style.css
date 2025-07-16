@@ -690,6 +690,8 @@ footer.footer {
   background-color: var(--Very-Dark-Cyan);
   
   color: #FFF;
+
+  font-size: 1.7rem;
 }
 
 footer.footer > .container {
@@ -736,9 +738,7 @@ footer.footer > .container > .group-left-right-middle {
 
 footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
 footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
-  margin-top: 4rem;
-
-  font-size: 1.6rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 425px) {
@@ -776,8 +776,6 @@ footer.footer > .container > .group-left-right-middle > .right-middle > .lists >
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
-    font-size: 1.1rem;
 
     margin-bottom: 1.5rem;
   }
@@ -821,8 +819,6 @@ footer.footer > .container > .group-left-right-middle > .right-middle > .lists >
     align-items: flex-start;
     gap: 2rem;
 
-    font-size: 1.6rem;
-
     margin-bottom: 2rem;
   }
 
@@ -836,9 +832,7 @@ footer.footer > .container > .group-left-right-middle > .right-middle > .lists >
   footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
   footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
     margin-top: 2rem;
-
-    font-size: 1.6rem;
-  }
+}
 
   footer.footer > .container > .right {
     margin: 6rem 0 0 4rem;
