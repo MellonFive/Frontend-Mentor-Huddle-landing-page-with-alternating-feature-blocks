@@ -733,12 +733,24 @@ footer.footer > .container > .group-left-right-middle {
   display: flex;
   justify-content: space-around;
 
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
 footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
   margin-top: 3rem;
+}
+
+footer.footer > .container > .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer.footer > .container > .right > .lists {
+  display: flex;
+
+  margin-top: 8rem;
 }
 
 @media (max-width: 425px) {
