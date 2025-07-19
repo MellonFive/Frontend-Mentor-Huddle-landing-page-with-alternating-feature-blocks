@@ -677,6 +677,9 @@ section.advertising > .box > .btn:focus {
 
   section.advertising > .box > .btn {
     width: 60%;
+    
+    margin-top: 4rem;
+    padding: 1.3rem;
 
     font-size: 1.6rem;
   }
