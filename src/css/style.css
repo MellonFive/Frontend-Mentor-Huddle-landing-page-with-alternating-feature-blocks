@@ -757,14 +757,19 @@ footer.footer > .container > .right > .lists {
 
 @media (max-width: 425px) {
   footer.footer {
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
+
+    background-color: red;
   }
 
   footer.footer > .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
-    gap: 2rem;
+    padding: 0;
+
+    gap: 2rem;    
   }
 
   footer.footer > .container > .left {
@@ -773,25 +778,29 @@ footer.footer > .container > .right > .lists {
     text-align: center;
   }
 
+  footer.footer > .container > .left > .div-image {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   footer.footer > .container > .left > .div-image > img {
-    width: 60%;
+    width: 40%;
   }
 
   footer.footer > .container > .left > .lists {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     margin-top: 2rem;
   }
 
   footer.footer > .container > .left > .lists > .list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
     margin-bottom: 1.5rem;
+
+    gap: 1rem;
+  }
+
+  footer.footer > .container > .left > .lists > .list.-first {
+    display: flex;
+    gap: 0;
   }
 }
 
