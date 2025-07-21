@@ -757,9 +757,7 @@ footer.footer > .container > .right > .lists {
 
 @media (max-width: 425px) {
   footer.footer {
-    padding: 3rem 1rem;
-
-    background-color: red;
+    padding: 1rem 2rem;
   }
 
   footer.footer > .container {
