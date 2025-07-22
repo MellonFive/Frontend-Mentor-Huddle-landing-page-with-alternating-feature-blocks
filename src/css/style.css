@@ -709,7 +709,11 @@ footer.footer > .container > .left {
 }
 
 footer.footer > .container > .left .div-image > img {
-  width: 80%;
+  padding: 1.5rem;
+
+  border-radius: 2rem;
+
+  background-color: var(--Very-light-Cyan);
 }
 
 footer.footer > .container > .left > .lists {
