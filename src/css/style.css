@@ -761,7 +761,7 @@ footer.footer > .container > .right > .lists {
 
 @media (max-width: 425px) {
   footer.footer {
-    padding: 1rem 2rem;
+    padding: 2rem 1rem;
   }
 
   footer.footer > .container {
@@ -786,11 +786,11 @@ footer.footer > .container > .right > .lists {
   }
 
   footer.footer > .container > .left > .div-image > img {
-    width: 40%;
+    width: 70%;
   }
 
   footer.footer > .container > .left > .lists {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   footer.footer > .container > .left > .lists > .list {
