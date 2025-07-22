@@ -774,6 +774,15 @@ footer.footer > .container > .right > .lists {
     gap: 2rem;    
   }
 
+  footer.footer > .container > .group-left-right-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 0;
+    margin-top: 2rem;
+  }
+
   footer.footer > .container > .left {
     width: 100%;
     
@@ -802,6 +811,13 @@ footer.footer > .container > .right > .lists {
   footer.footer > .container > .left > .lists > .list.-first {
     display: flex;
     gap: 0;
+  }
+
+  footer.footer > .container > .left > .lists > .list.-first > .description {
+    width: 70%;
+    text-align: left;
+
+    margin-left: 1.5rem;
   }
 }
 
