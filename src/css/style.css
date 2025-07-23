@@ -761,7 +761,7 @@ footer.footer > .container > .right > .lists {
 
 @media (max-width: 425px) {
   footer.footer {
-    padding: 2rem 1rem;
+    padding: 2rem;
   }
 
   footer.footer > .container {
@@ -818,6 +818,18 @@ footer.footer > .container > .right > .lists {
     text-align: left;
 
     margin-left: 1.5rem;
+  }
+
+  footer.footer > .container > .right {
+    align-items: center;
+  }
+
+  footer.footer > .container > .right > .lists {
+    margin-top: 3rem;
+  }
+
+  footer.footer > .container > .right > .description {
+    margin-top: 3rem;
   }
 }
 
