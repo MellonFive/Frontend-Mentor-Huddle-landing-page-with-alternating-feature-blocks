@@ -767,7 +767,6 @@ footer.footer > .container > .right > .lists {
   footer.footer > .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
     padding: 0;
 
@@ -778,8 +777,8 @@ footer.footer > .container > .right > .lists {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     gap: 0;
+
     margin-top: 2rem;
   }
 
@@ -820,6 +819,11 @@ footer.footer > .container > .right > .lists {
     margin-left: 1.5rem;
   }
 
+  footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
+  footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
+    margin-top: 2rem;
+  }
+
   footer.footer > .container > .right {
     align-items: center;
   }
@@ -830,6 +834,8 @@ footer.footer > .container > .right > .lists {
 
   footer.footer > .container > .right > .description {
     margin-top: 3rem;
+
+    font-size: 1.5rem;
   }
 }
 
