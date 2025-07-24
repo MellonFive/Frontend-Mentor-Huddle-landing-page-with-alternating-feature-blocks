@@ -139,11 +139,11 @@ main > .container {
   }
 
   .container > header > .header-container > ul > .list > .img-logo {
-    width: 15rem;
+    width: 12rem;
   }
 
   .container > header > .header-container > ul > .list > .btn {
-    padding: 0.9rem 4rem;
+    padding: 0.5rem 4rem;
 
     font-size: 1.3rem;
     font-weight: bold;
