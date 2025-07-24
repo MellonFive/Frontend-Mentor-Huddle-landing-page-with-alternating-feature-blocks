@@ -850,13 +850,15 @@ footer.footer > .container > .right > .lists {
     background-color: var(--Very-Dark-Cyan);
 
     color: #FFF;
+
+    font-size: 1.8rem;
   }
 
   footer.footer > .container {
-    display: grid;
-    grid-template-columns: 60% auto;
-
-    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   footer.footer > .container > .left {
@@ -887,7 +889,8 @@ footer.footer > .container > .right > .lists {
 
   footer.footer > .container > .group-left-right-middle {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
 
     margin-top: 4rem;
   }
@@ -899,8 +902,6 @@ footer.footer > .container > .right > .lists {
 
   footer.footer > .container > .right {
     margin-top: 4rem;
-
-    text-align: center;
   }
 }
 
