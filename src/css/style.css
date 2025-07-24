@@ -712,7 +712,7 @@ footer.footer > .container > .left {
   width: 70%;  
 }
 
-footer.footer > .container > .left .div-image > img {
+footer.footer > .container > .left > .div-image > img {
   padding: 1.5rem;
 
   border-radius: 2rem;
