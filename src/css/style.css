@@ -825,10 +825,10 @@ footer.footer > .container > .right > .description {
     margin-top: 1rem;
   }
 
+  /* Porque tem gap dentro dessa declaração? Porque tem um display: flex na parte normal. */
   footer.footer > .container > .left > .lists > .list {
     margin-bottom: 1.5rem;
 
-    /* Porque tem gap aqui? Porque tem um display: flex na parte normal dessa declaração. */
     gap: 1rem;
   }
 
