@@ -792,10 +792,9 @@ footer.footer > .container > .right > .description {
   footer.footer > .container {
     display: flex;
     flex-direction: column;
+    gap: 2rem;    
 
     padding: 0;
-
-    gap: 2rem;    
   }
 
   footer.footer > .container > .group-left-right-middle {
