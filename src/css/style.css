@@ -849,6 +849,7 @@ footer.footer > .container > .right > .description {
   }
 
   footer.footer > .container > .right {
+    margin: 5rem 0 2rem 0;
     align-items: center;
   }
 
@@ -857,9 +858,9 @@ footer.footer > .container > .right > .description {
   }
 
   footer.footer > .container > .right > .description {
-    margin-top: 3rem;
+    margin-top: 5rem;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
