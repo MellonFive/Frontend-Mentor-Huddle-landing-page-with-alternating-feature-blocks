@@ -725,7 +725,7 @@ footer.footer > .container > .left > .lists {
   flex-direction: column;
 }
 
-footer.footer > .container > .left > .lists .list {
+footer.footer > .container > .left > .lists > .list {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -828,18 +828,24 @@ footer.footer > .container > .right > .description {
   footer.footer > .container > .left > .lists > .list {
     margin-bottom: 1.5rem;
 
+    /* Porque tem gap aqui? Porque tem um display: flex na parte normal dessa declaração. */
     gap: 1rem;
   }
 
   footer.footer > .container > .left > .lists > .list.-first {
     display: flex;
     gap: 0;
+    align-items: flex-start;
+  }
+
+  footer.footer > .container > .left > .lists > .list.-first > img {
+    margin-top: .5rem;
   }
 
   footer.footer > .container > .left > .lists > .list.-first > .description {
-    width: 70%;
+    width: 100%;
     text-align: left;
-
+    
     margin-left: 1.5rem;
   }
 
@@ -850,6 +856,7 @@ footer.footer > .container > .right > .description {
 
   footer.footer > .container > .right {
     margin: 5rem 0 2rem 0;
+
     align-items: center;
   }
 
