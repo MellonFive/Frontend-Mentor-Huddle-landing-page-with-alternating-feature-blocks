@@ -147,6 +147,12 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  footer.footer {
+    background-color: red;
+  }
+}
+
 @media (min-width: 1025px) and (max-width: 1440px) {
   footer.footer {
     margin-top: 4rem;
@@ -154,6 +160,8 @@
     background-color: var(--Very-Dark-Cyan);
 
     color: #FFF;
+
+    font-size: 1.7rem;
   }
 
   footer.footer > .container {
@@ -168,15 +176,13 @@
   } 
 
   footer.footer > .container > .left > .div-image > img {
-    width: 80%;
+    width: 100%;
   }
 
   footer.footer > .container > .left > .lists {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    margin-top: 2rem;
   }
 
   footer.footer > .container > .left > .lists > .list {
@@ -192,7 +198,7 @@
     display: flex;
     justify-content: space-around;
 
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
   footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
@@ -201,6 +207,6 @@
 }
 
   footer.footer > .container > .right {
-    margin: 6rem 0 0 4rem;
+    margin: 2rem 0 0 4rem;
   }
 }
