@@ -150,7 +150,7 @@ section.infos > .info.flowing > .right {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 section.infos > .info.grow > .left > .title,

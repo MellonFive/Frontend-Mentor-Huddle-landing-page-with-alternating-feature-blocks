@@ -167,7 +167,7 @@
   }
 
   section.infos > .info.flowing > .right > .title {
-    margin-left: 10rem;
+    margin-left: 0;
   }
 
   section.infos > .info.grow > .left > .description,
