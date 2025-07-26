@@ -200,7 +200,7 @@
 
   footer.footer > .container > .group-left-right-middle {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     margin-top: 8rem;
   }
