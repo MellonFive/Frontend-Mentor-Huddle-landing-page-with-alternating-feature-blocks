@@ -1,0 +1,87 @@
+@media (max-width: 425px) {
+  section.advertising {
+    width: 90%;
+
+    margin: 10rem auto 0;
+    padding: 3.5rem 2rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 1.9rem;
+  }
+
+  section.advertising > .box > .btn {
+    width: 80%;
+
+    margin-top: 3rem;
+    padding: 1.2rem 0;
+
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  section.advertising {
+    width: 85%;
+
+    margin-top: 4rem;
+    padding: 4rem 3rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 3rem;
+  }
+
+  section.advertising > .box > .btn {
+    width: 80%;
+
+    padding: 1.7rem 0;
+    margin-top: 4rem;
+
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  section.advertising {
+    width: 80%;
+
+    margin-top: 5rem;
+    padding: 4rem;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 3.5rem;
+
+    text-align: center;
+  }
+
+  section.advertising > .box > .btn {
+    width: 80%;
+
+    text-align: center;
+
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  section.advertising {
+    width: 60%;
+
+    padding: 5rem 0;
+  }
+
+  section.advertising > .box > .title {
+    font-size: 3.5rem;
+  }
+
+  section.advertising > .box > .btn {
+    width: 60%;
+    
+    margin-top: 4rem;
+    padding: 1.3rem;
+
+    font-size: 1.6rem;
+  }
+}

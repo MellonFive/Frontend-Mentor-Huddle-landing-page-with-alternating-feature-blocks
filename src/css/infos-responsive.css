@@ -1,0 +1,192 @@
+@media (max-width: 425px) {
+  section.infos {
+    padding: 3rem 2rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing,
+  section.infos > .info.users {
+    flex-direction: column-reverse;
+    gap: 2rem;
+
+    padding: 4rem 1rem;
+
+    text-align: center;
+  }
+
+  section.infos > .info.flowing {
+    flex-direction: column;
+  }
+
+  section.infos > .info.grow > .left > .title,
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 2.7rem;
+  }
+
+  section.infos > .info.flowing > .right > .title {
+    margin-right: 0;
+    padding: 0 0.8rem;
+
+    width: 100%;
+  }
+
+  section.infos > .info.grow > .left > .description,
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+
+    font-size: 1.7rem;
+
+    line-height: 2.8rem;
+
+    padding: 0 1rem;
+  }
+
+  section.infos > .info.grow > .image-grow,
+  section.infos > .info.users > .image-users {
+    width: 30rem;
+
+    margin: 4rem 0;
+  }
+
+  section.infos > .info.flowing > .image-flowing {
+    width: 100%;
+
+    padding: 2rem;
+  }
+
+    section.infos > .info.users.-last {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  section.infos {
+    padding: 0 3rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing,
+  section.infos > .info.users {
+    padding: 2rem 2rem;
+
+    gap: 5rem;
+  }
+
+    section.infos > .info.users.-last {
+    margin-bottom: 4rem;
+  }
+
+  section.infos > .info.flowing > .right {
+    align-items: flex-start;
+  }
+
+  section.infos > .info.grow > .left > .title,
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 2.5rem;
+  }
+
+  section.infos > .info.grow > .left > .description,
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+
+    margin-top: 1rem;
+  }
+
+  section.infos > .info.grow > .image-grow,
+  section.infos > .info.flowing > .image-flowing,
+  section.infos > .info.users > .image-users {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  section.infos {
+    padding: 0 5rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing,
+  section.infos > .info.users {
+    padding: 4rem 3rem;
+    margin-bottom: 4rem;
+
+    gap: 7rem;
+  }
+
+  section.infos > .info.users.-last {
+    margin-bottom: 0;
+  }
+
+  section.infos > .info.grow > .left > .title,
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 3rem;
+  }
+
+  section.infos > .info.grow > .left > .description,
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+
+    font-size: 1.7rem;
+
+    line-height: 2.5rem;
+  }
+
+  section.infos > .info.grow > .image-grow,
+  section.infos > .info.flowing > .image-flowing,
+  section.infos > .info.users > .image-users {
+    width: 40rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  section.infos {
+    padding: 0 10rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing,
+  section.infos > .info.users {
+    padding: 4rem 5rem;
+
+    gap: 5rem;
+  }
+
+  section.infos > .info.grow > .left > .title,
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 3rem;
+  }
+
+  section.infos > .info.flowing > .right > .title {
+    margin-left: 10rem;
+  }
+
+  section.infos > .info.grow > .left > .description,
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+
+    font-size: 1.6rem;
+
+    line-height: 2.5rem;
+  }
+
+  section.infos > .info.grow > .image-grow,
+  section.infos > .info.flowing > .image-flowing,
+  section.infos > .info.users > .image-users {
+    width: 40rem;
+  }
+
+  section.info.users.-last {
+    margin-bottom: 0;
+  }
+}
