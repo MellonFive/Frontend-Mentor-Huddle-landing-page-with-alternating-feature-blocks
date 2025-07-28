@@ -283,7 +283,7 @@ footer.footer > .container > .left > .lists > .list {
   margin-top: 2rem;
 }
 
-footer.footer > .container > .left > .lists .list.-first {
+footer.footer > .container > .left > .lists > .list.-first {
   display: flex;
   align-items: flex-start;
   gap: 2rem;

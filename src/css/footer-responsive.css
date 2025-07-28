@@ -81,7 +81,7 @@
   footer.footer > .container > .right > .description {
     margin-top: 5rem;
 
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -110,7 +110,7 @@
   } 
 
   footer.footer > .container > .left > .div-image > img {
-    width: 100%;
+    width: 80%;
   }
 
   footer.footer > .container > .left > .lists {
@@ -129,6 +129,10 @@
     margin-bottom: 2rem;
   }
 
+  footer.footer > .container > .left > .lists .list.-first {
+    text-align: left;
+  }
+
   footer.footer > .container > .group-left-right-middle {
     display: flex;
     width: 100%;
@@ -143,7 +147,11 @@
 }
 
   footer.footer > .container > .right {
-    margin-top: 4rem;
+    margin: 0 0 2rem 0;
+  }
+
+  footer.footer > .container > .right > .description {
+    font-size: 1.4rem;
   }
 }
 
