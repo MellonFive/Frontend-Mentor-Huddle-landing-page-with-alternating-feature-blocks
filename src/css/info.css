@@ -1,3 +1,76 @@
+section.infos {
+  grid-area: infos;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 10rem;
+  margin-top: 5rem;
+}
+
+section.infos > .info.grow,
+section.infos > .info.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 1rem;
+
+  padding: 5rem 7rem;
+  margin-bottom: 6rem;
+
+  box-shadow: 2px 2px 5px 2px #000;
+}
+
+section.infos > .info.flowing {
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 1rem;
+
+  padding: 5rem 10rem;
+  margin-bottom: 6rem;
+
+  box-shadow: 2px 2px 5px 2px #000;
+}
+
+section.infos > .info.flowing > .right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section.infos > .info.grow > .left > .title,
+section.infos > .info.flowing > .right > .title,
+section.infos > .info.users > .left > .title {
+  font-size: 4rem;
+}
+
+section.infos > .info.flowing > .right > .title {
+  width: 60%;
+}
+
+section.infos > .info.grow > .left > .description,
+section.infos > .info.flowing > .right > .description,
+section.infos > .info.users > .left > .description {
+  margin-top: 2rem;
+
+  font-size: 1.8rem;
+
+  width: 70%;
+
+  line-height: 3rem;
+
+  color: var(--Grayish-Blue);
+}
+
+section.infos > .info.grow > .image-grow,
+section.infos > .info.flowing > .image-flowing,
+section.infos > .info.users > .image-users {
+  width: 50rem;
+}
+
 @media (max-width: 425px) {
   section.infos {
     padding: 3rem 2rem;
