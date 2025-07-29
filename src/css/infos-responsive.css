@@ -149,7 +149,7 @@
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   section.infos {
-    padding: 0 10rem;
+    padding: 0 7rem;
   }
 
   section.infos > .info.grow,
@@ -173,7 +173,7 @@
   section.infos > .info.grow > .left > .description,
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
-    width: 100%;
+    width: 70%;
 
     font-size: 1.6rem;
 
