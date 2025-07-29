@@ -237,7 +237,9 @@
   .container > header > .header-container > .container > .left > .btn {
     margin: 4rem auto 0;
 
-    width: 60%;
+    width: 80%;
+
+    font-size: 2.2rem;
   }
 
   .container > header > .header-container > .container > .right > .container-image {
