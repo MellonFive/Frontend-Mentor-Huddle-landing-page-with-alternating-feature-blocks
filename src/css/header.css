@@ -236,6 +236,8 @@
 
   .container > header > .header-container > .container > .left > .btn {
     margin: 4rem auto 0;
+
+    width: 60%;
   }
 
   .container > header > .header-container > .container > .right > .container-image {
