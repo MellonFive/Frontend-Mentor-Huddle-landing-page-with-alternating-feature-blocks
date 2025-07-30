@@ -200,6 +200,8 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
     font-size: 3rem;
+
+    width: 100%;
   }
 
   section.infos > .info.grow > .left > .description,
