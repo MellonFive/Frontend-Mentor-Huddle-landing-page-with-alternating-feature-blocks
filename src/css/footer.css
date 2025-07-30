@@ -250,9 +250,26 @@ footer.footer > .container > .right > .description {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) /* PAREI AQUI */ {
   footer.footer {
-    background-color: red;
+    padding: 4rem 2rem;
+  }
+
+  footer.footer > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer.footer > .container > .left {
+    text-align: center;
+
+    width: 100%;
+  }
+
+  footer.footer > .container > .left > .div-image > img {
+    width: 50%;
+    
+    margin: auto;
   }
 }
 
