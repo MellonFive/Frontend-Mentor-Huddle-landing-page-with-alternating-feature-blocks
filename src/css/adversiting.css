@@ -100,7 +100,6 @@ section.advertising > .box > .btn:focus {
   section.advertising {
     width: 80%;
 
-    margin-top: 5rem;
     padding: 4rem;
   }
 
@@ -116,6 +115,8 @@ section.advertising > .box > .btn:focus {
     text-align: center;
 
     font-size: 1.6rem;
+
+    margin-top: 7rem;
   }
 }
 
