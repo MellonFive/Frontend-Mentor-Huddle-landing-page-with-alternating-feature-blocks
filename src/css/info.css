@@ -37,7 +37,6 @@ section.infos > .info.flowing {
 section.infos > .info.flowing > .right {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
 }
 
