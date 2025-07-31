@@ -38,12 +38,13 @@ section.infos > .info.flowing > .right {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
 }
 
 section.infos > .info.grow > .left > .title,
 section.infos > .info.flowing > .right > .title,
 section.infos > .info.users > .left > .title {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 section.infos > .info.flowing > .right > .title {
@@ -199,7 +200,7 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .left > .title,
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     width: 100%;
   }
@@ -218,6 +219,10 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
     width: 40rem;
+  }
+
+  section.infos > .info.flowing > .right {
+    align-items: flex-start;
   }
 }
 
