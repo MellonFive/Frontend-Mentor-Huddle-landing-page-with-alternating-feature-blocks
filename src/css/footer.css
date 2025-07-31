@@ -250,7 +250,7 @@ footer.footer > .container > .right > .description {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) /* PAREI AQUI */ {
+@media (min-width: 769px) and (max-width: 1024px) {
   footer.footer {
     padding: 4rem 2rem;
   }
@@ -270,6 +270,10 @@ footer.footer > .container > .right > .description {
     width: 50%;
     
     margin: auto;
+  }
+
+  footer.footer > .container > .right {
+    margin: 0;
   }
 }
 
