@@ -164,9 +164,9 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .left > .description,
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
-    width: 95%;
+    width: 90%;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2.5rem;
 
     margin-top: 1rem;
