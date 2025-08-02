@@ -235,8 +235,6 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing,
   section.infos > .info.users {
     padding: 4rem 5rem;
-
-    gap: 5rem;
   }
 
   section.infos > .info.grow > .left > .title,
@@ -257,6 +255,8 @@ section.infos > .info.users > .image-users {
     font-size: 1.6rem;
 
     line-height: 2.5rem;
+
+    margin-top: 1rem;
   }
 
   section.infos > .info.grow > .image-grow,
