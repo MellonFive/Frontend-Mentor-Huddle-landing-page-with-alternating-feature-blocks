@@ -91,7 +91,7 @@ footer.footer > .container > .right > .description {
 
   text-align: center;
 
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 @media (max-width: 425px) {
@@ -141,7 +141,7 @@ footer.footer > .container > .right > .description {
 
     gap: 1rem;
   }
-
+  
   footer.footer > .container > .left > .lists > .list.-first {
     display: flex;
     gap: 0;
@@ -277,6 +277,7 @@ footer.footer > .container > .right > .description {
 
   footer.footer > .container > .right > .description {
     font-size: 1.5rem;
+    
     text-align: center;
   }
 }
@@ -322,6 +323,30 @@ footer.footer > .container > .right > .description {
     margin-bottom: 2rem;
   }
 
+  footer.footer > .container > .right > .lists > .list > .link {
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram {
+    font-size: 4rem;
+
+    padding: 1rem;
+
+    transition: .2s;
+  }
+
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github:hover,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook:hover, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram:hover {
+    transform: scale(1.5);
+  }
+
   footer.footer > .container > .left > .lists .list.-first {
     width: calc(100% + 10rem);
   }
@@ -338,13 +363,9 @@ footer.footer > .container > .right > .description {
     margin-top: 2rem;
 }
 
-  footer.footer > .container > .right {
-    margin: 2rem 0 0 4rem;
-  }
-
   footer.footer > .container > .right > .description {
     margin-top: 2rem;
 
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 }
