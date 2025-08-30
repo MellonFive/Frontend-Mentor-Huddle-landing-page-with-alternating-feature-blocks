@@ -19,8 +19,6 @@
 
 Serve para colocar em prática conhecimentos em Front-End. 
 
-## Como ficou o projeto online
-
 <p align="center">
   <img alt="Dev-Challanges" src=".github/preview.gif" width="100%">
 </p>
