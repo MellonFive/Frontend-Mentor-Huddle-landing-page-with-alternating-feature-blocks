@@ -42,4 +42,6 @@ Investi 3 meses nesse projeto.
 
 Melhorando a arquitetura CSS. 
 
-Container, 
+Container, header, info, footer... Cada um tem seu próprio arquivo CSS.
+
+Facilita na hora de dar manutenção ao código.
