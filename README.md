@@ -38,7 +38,8 @@ Serve para colocar em prática conhecimentos em Front-End.
 
 ## Conclusão
 
-Primeiro projeto que faço com Grid CSS 😃!!!
+Investi 3 meses nesse projeto. 
 
-Aplicando grid em meus projetos para colocar em prática meus conhecimentos.
-Devo dizer que grid é fácil de aprender. Só preciso ter mais foco na hora de aplicar nos projetos.
+Melhorando a arquitetura CSS. 
+
+Container, 
