@@ -96,7 +96,7 @@ footer.footer > .container > .right > .description {
 
 @media (max-width: 425px) {
   footer.footer {
-    padding: 2rem;
+    padding: 3rem 2rem;
   }
 
   footer.footer > .container {
@@ -124,7 +124,7 @@ footer.footer > .container > .right > .description {
 
   footer.footer > .container > .left > .div-image {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   footer.footer > .container > .left > .div-image > img {
@@ -159,6 +159,16 @@ footer.footer > .container > .right > .description {
     margin-left: 1.5rem;
   }
 
+  footer.footer > .container > .group-left-right-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer.footer > .container > .group-left-right-middle > .right-middle {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   footer.footer > .container > .group-left-right-middle > .left-middle > .lists > .list > .description,
   footer.footer > .container > .group-left-right-middle > .right-middle > .lists > .list > .description {
     margin-top: 2rem;
@@ -174,10 +184,30 @@ footer.footer > .container > .right > .description {
     margin-top: 3rem;
   }
 
+  footer.footer > .container > .right > .lists > .list > .link {
+    color: #FFF;
+  }
+
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram {
+    font-size: 4rem;
+
+    padding: 1rem;
+
+    transition: .2s;
+  }
+
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github:hover,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook:hover, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram:hover {
+    transform: scale(1.5);
+  }
+
   footer.footer > .container > .right > .description {
     margin-top: 5rem;
 
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
