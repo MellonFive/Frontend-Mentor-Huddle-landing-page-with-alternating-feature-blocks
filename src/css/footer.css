@@ -86,12 +86,32 @@ footer.footer > .container > .right > .lists > .list {
   margin-right: 2rem;
 }
 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram {
+    font-size: 4.5rem;
+
+    padding: 1rem;
+
+    transition: .2s;
+
+    color: #FFF;
+
+    margin-left: 2rem;
+  }
+
+  footer.footer > .container > .right > .lists > .list > .link > .fa-github:hover,
+  footer.footer > .container > .right > .lists > .list > .link > .fa-facebook:hover, 
+  footer.footer > .container > .right > .lists > .list > .link > .fa-instagram:hover {
+    transform: scale(1.5);
+  }
+
 footer.footer > .container > .right > .description {
   margin-top: 8rem;
 
   text-align: center;
 
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 425px) {
