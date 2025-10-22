@@ -26,7 +26,7 @@ Serve para colocar em prática conhecimentos em Front-End.
 ## 📱 Mobile
 
 <p align="center">
-  <img alt="Dev-Challanges" src=".github/Preview-mobile.gif" width="100%">
+  <img alt="Front-End-Mentor" src=".github/Preview-mobile.gif" width="100%">
 </p>
 
 <div align="center">
