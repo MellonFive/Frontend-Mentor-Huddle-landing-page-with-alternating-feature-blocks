@@ -30,7 +30,7 @@ Serve para colocar em prática conhecimentos em Front-End.
 </p>
 
 <div align="center">
-  <p style="font-size: 20px"><a href="https://frontend-mentor-huddle-landing-page-nu.vercel.app/" target="_blank">Clique para</a> acessar o link</a>
+  <p style="font-size: 20px"><a href="https://frontend-mentor-huddle-landing-page-nu.vercel.app/" target="_blank">Clique para acessar o link</a>
   </p>
 </div>
 
