@@ -26,11 +26,11 @@ Serve para colocar em prática conhecimentos em Front-End.
 ## 📱 Mobile
 
 <p align="center">
-  <img alt="Dev-Challanges" src=".github/Preview-mobile.gif" width="100%">
+  <img alt="Front-End-Mentor" src=".github/Preview-mobile.gif" width="100%">
 </p>
 
 <div align="center">
-  <p style="font-size: 20px"><a href="https://do-zero-ao-programador-contratado-projeto-dragon-qvqqfzms2.vercel.app/" target="_blank">Clique para</a> acessar o link</a>
+  <p style="font-size: 20px"><a href="https://frontend-mentor-huddle-landing-page-nu.vercel.app/" target="_blank">Clique para acessar o link</a>
   </p>
 </div>
 
