@@ -150,7 +150,7 @@
   }
 
   .container > header > .header-container > .container > .left > .description {
-    font-size: 1.8rem; /* Tentar ajustar igual está no layout */
+    font-size: 1.8rem;
 
     line-height: 3rem;
 
